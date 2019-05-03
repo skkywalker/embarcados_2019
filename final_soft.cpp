@@ -16,7 +16,7 @@ TODO:
 
 Uso:
 Roda o ./app na placa (image recognition & servidor socket)
-Roda o cliente em qualquer lugar (ex: telnet)
+Roda o socket client em qualquer lugar (ex: telnet)
 */
 
 #include "opencv2/objdetect.hpp"
@@ -176,20 +176,17 @@ int main(int argc, const char** argv)
 
     while(true) {
 
-        printf("First!\n");
         sin_size = sizeof their_addr;
         new_fd = accept(sockfd, (struct sockaddr *)&their_addr, &sin_size);
         if (new_fd == -1) {
             perror("accept");
             continue;
         }
-        printf("Second!\n");
 
         inet_ntop(their_addr.ss_family, get_in_addr((struct sockaddr *)&their_addr), s, sizeof s);
         printf("server: got connection from %s\n", s);
 
         capture >> frame;
-        printf("Third!\n");
 
         if (!frame.empty()) {
             printf("Frame is not empty!\n");
