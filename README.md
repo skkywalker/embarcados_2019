@@ -20,7 +20,7 @@
 
 1. Mude as variaveis `PORT` e `face_cascade_name` para a porta a ser utilizada na
 comunicacao dos sockets e para o arquivo que contem as cascades de face detection.
-No meu pc, o caminho e `/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml"`.
+No meu pc, o caminho e `/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml`.
 
 2. Compile o programa com as libs e flags do OpenCV
 
@@ -30,8 +30,9 @@ $ g++ main.cpp -o main `pkg-config --cflags --libs opencv`
 
 **Uso**
 
-Roda o `./main` na placa (image recognition & servidor socket)
-Roda o socket client em qualquer lugar (ex: telnet, esp8266, etc)
+1. Roda o `./main` na placa (image recognition & servidor socket)
+
+2. Roda o socket client em qualquer lugar (ex: telnet, esp8266, etc)
 
 ## Next Stuff
 
