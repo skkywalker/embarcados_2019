@@ -22,7 +22,11 @@
 comunicacao dos sockets e para o arquivo que contem as cascades de face detection.
 No meu pc, o caminho e `/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml`.
 
-2. Compile o programa com as libs e flags do OpenCV
+2. Mude também a entrada do vídeo. Em arquitetura x86, provavelmente será algo
+como `capture.open(0)`, indicando a webcam do laptop, ou `/dev/X`, `/dev/videoX`,...
+Para a placa ARM, será algo como: `v4l2:///dev/videoX`.
+
+3. Compile o programa com as libs e flags do OpenCV
 
 ```
 $ g++ main.cpp -o main `pkg-config --cflags --libs opencv`
