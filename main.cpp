@@ -1,24 +1,3 @@
-/*
-Software desenvolvido para a disciplinas de Sistemas Embarcados
-
-Baseado em:
-http://beej.us/guide/bgnet/html/single/bgnet.html#simpleserver
-https://developer.toradex.com/knowledge-base/opencv-(linux)
-
-EESC 2019.1
-
-Para compilar:
-
-$ g++ final_soft.cpp -o app `pkg-config --cflags --libs opencv`
-
-TODO:
-- Build image and toolchain for crosscompiling
-
-Uso:
-Roda o ./app na placa (image recognition & servidor socket)
-Roda o socket client em qualquer lugar (ex: telnet)
-*/
-
 #include "opencv2/objdetect.hpp"
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
