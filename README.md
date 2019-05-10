@@ -35,8 +35,8 @@ Roda o socket client em qualquer lugar (ex: telnet, esp8266, etc)
 
 ## Next Stuff
 
-[ ] Build image and toolchain for cross-compiling
-[ ] Setup NodeMCU to be the socket client
+- [ ] Build image and toolchain for cross-compiling
+- [ ] Setup NodeMCU to be the socket client
 ______
 
 **EESC 2019**
