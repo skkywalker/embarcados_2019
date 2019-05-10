@@ -38,6 +38,7 @@ $ g++ main.cpp -o main `pkg-config --cflags --libs opencv`
 
 - [ ] Build image and toolchain for cross-compiling
 - [ ] Setup NodeMCU to be the socket client
+- [ ] Fix Bug: You have to ping the socket server 5 times before getting an updated image
 ______
 
 **EESC 2019**
