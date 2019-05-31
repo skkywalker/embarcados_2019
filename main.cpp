@@ -19,9 +19,9 @@
 using namespace std;
 using namespace cv;
 
-#define PORT "3490"  // the port users will be connecting to
+#define PORT "3945"  // the port users will be connecting to
 
-#define BACKLOG 10     // how many pending connections queue will hold
+#define BACKLOG 1     // how many pending connections queue will hold
  
 CascadeClassifier face_cascade;
 string window_name = "Face Detection Demo";
@@ -48,15 +48,6 @@ void *get_in_addr(struct sockaddr *sa)
 
     return &(((struct sockaddr_in6*)sa)->sin6_addr);
 }
-
-template <typename T> string toString(T t)
-{
-    ostringstream out;
-    out << t;
-
-    return out.str();
-}
- 
 
 int main(int argc, const char** argv)
 {
@@ -174,23 +165,6 @@ int main(int argc, const char** argv)
             equalizeHist(frame_gray, frame_gray);
 
             face_cascade.detectMultiScale(frame_gray, faces, 1.2, 3, CV_HAAR_DO_CANNY_PRUNING, Size(80, 80));
-
-            for (size_t i = 0; i < faces.size(); i++) {
-                CvPoint pt1 = { faces[i].x, faces[i].y };
-                CvPoint pt2 = { faces[i].x + faces[i].width, faces[i].y + faces[i].height };
-                rectangle(frame, pt1, pt2, CV_RGB(0, 255, 0), 3, 4, 0);
-
-                Mat faceROI = frame_gray(faces[i]);
-            }
-            //string stringToDisplay = "Number Of Faces: " + toString(faces.size());
-
-            if (!!faces.size()) {
-                printf("Face detected!\n");
-            }
-            printf("imshow!!\n");
-
-            imshow(window_name, frame);
-
         } else {
                 printf(" --(!) No captured frame");
         }
@@ -198,10 +172,10 @@ int main(int argc, const char** argv)
         if (!fork()) { // this is the child process
             close(sockfd); // child doesn't need the listener
             if (!!faces.size()) {
-                if (send(new_fd, "Face detected!!!", 16, 0) == -1)
+                if (send(new_fd, "1", 1, 0) == -1)
                     perror("send");
             } else {
-                if (send(new_fd, "No faces detected :(", 20, 0) == -1)
+                if (send(new_fd, "0", 1, 0) == -1)
                     perror("send");
             }
             close(new_fd);
