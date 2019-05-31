@@ -22,7 +22,7 @@ docker build -t face_rec-socket .
 e depois 
 
 ```
-docker run -it --privileged -v /dev:/dev -p <porta-socket>:<porta-socket> face_rec-socket bash
+docker run -it --privileged -v /dev:/dev -p 3940:3940 face_rec-socket bash
 ```
 
 ### Compilando na mão
