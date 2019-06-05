@@ -7,7 +7,7 @@
 - http://beej.us/guide/bgnet/html/single/bgnet.html#simpleserver
 - https://developer.toradex.com/knowledge-base/opencv-(linux)
 
-## Compilaçao
+## Compilação
 
 ### Dockerfile
 
@@ -27,7 +27,7 @@ docker run -it --privileged -v /dev:/dev -p 3945:3945 face_rec-socket bash
 
 ### Compilando na mão
 
-**Versoes:**
+**Versões:**
 
 | Pacote | Versao |
 | ------ | ------ |
@@ -50,7 +50,7 @@ Para a placa ARM, será algo como: `v4l2:///dev/videoX`.
 $ g++ main.cpp -o main `pkg-config --cflags --libs opencv`
 ```
 
-## Utilizacao
+## Utilização
 
 1. Inicie o servidor socket-image_recognition, tanto rodando o programa compilado
 ou subindo o container Docker
