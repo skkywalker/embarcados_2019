@@ -22,7 +22,7 @@ docker build -t face_rec-socket .
 e depois 
 
 ```
-docker run -it --privileged -v /dev:/dev -p 3940:3940 face_rec-socket bash
+docker run -it --privileged -v /dev:/dev -p 3945:3945 face_rec-socket bash
 ```
 
 ### Compilando na mão
@@ -62,6 +62,17 @@ ou subindo o container Docker
 - [ ] Build image and toolchain for cross-compiling
 - [x] Setup NodeMCU to be the socket client
 - [ ] Fix Bug: You have to ping the socket server 5 times before getting an updated image
+______
+## Integrantes do projeto
+
+Anne Sanflorian Pretyman
+Henrique Toledo Amâncio Silva
+Márcio Kazuaki Tamada
+Lucas Hehl Pinto Ferraz
+
+## Vídeo-Relatório
+
+- https://drive.google.com/file/d/1pOkyNenUZsf9oktheKlJQFWGM7NC-P4V/view?usp=sharing
 ______
 
 **EESC 2019**
