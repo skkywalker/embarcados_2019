@@ -67,8 +67,8 @@ ______
 
 - Anne Sanflorian Pretyman
 - Henrique Toledo Amâncio Silva
-- Márcio Kazuaki Tamada
 - Lucas Hehl Pinto Ferraz
+- Márcio Kazuaki Tamada
 
 ## Vídeo-Relatório
 
