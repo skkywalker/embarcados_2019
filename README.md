@@ -65,10 +65,10 @@ ou subindo o container Docker
 ______
 ## Integrantes do projeto
 
-Anne Sanflorian Pretyman
-Henrique Toledo Amâncio Silva
-Márcio Kazuaki Tamada
-Lucas Hehl Pinto Ferraz
+- Anne Sanflorian Pretyman
+- Henrique Toledo Amâncio Silva
+- Márcio Kazuaki Tamada
+- Lucas Hehl Pinto Ferraz
 
 ## Vídeo-Relatório
 
