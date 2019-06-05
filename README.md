@@ -63,5 +63,16 @@ ou subindo o container Docker
 - [x] Setup NodeMCU to be the socket client
 - [ ] Fix Bug: You have to ping the socket server 5 times before getting an updated image
 ______
+## Integrantes do projeto
+
+Anne Sanflorian Pretyman
+Henrique Toledo Amâncio Silva
+Márcio Kazuaki Tamada
+Lucas Hehl Pinto Ferraz
+
+## Vídeo-Relatório
+
+- https://drive.google.com/file/d/1pOkyNenUZsf9oktheKlJQFWGM7NC-P4V/view?usp=sharing
+______
 
 **EESC 2019**
