@@ -19,6 +19,19 @@ de celular futuramente.
 
 ![Sist_embarcados](https://user-images.githubusercontent.com/15917260/60630358-27eb4800-9dd0-11e9-8480-9c282552bfbf.png)
 
+## Lista de Materiais 
+
+- Placa Toradex
+- [Módulo Wifi ESP8266 Nodemcu ESP-12 F com CH340](https://pt.aliexpress.com/item/NodeMcu-Lua-WIFI-development-board-based-on-the-ESP8266-Internet-of-things/32443964726.html?src=google&albslr=220578590&src=google&albch=shopping&acnt=494-037-6276&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&&albagn=888888&albcp=1626568036&albag=65942329430&trgt=296904914040&crea=pt32443964726&netw=u&device=c&gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_KhjD9Dkb1STRaHk6n5FtzH-hasCTEMFW4YdTQbAvpGQZqzyBTc_LEaAllNEALw_wcB&gclsrc=aw.ds)
+- [Roteador TP-Link AC1750 Archer C7, USBx2, Versão 4.0](https://www.amazon.com.br/Roteador-TP-Link-AC1750-Archer-Vers%C3%A3o/dp/B00BUSDVBQ?tag=goog0ef-20&smid=A2P1KJPEKWNQPI&ascsubtag=go_958276976_46095487085_227548540242_aud-519888259198:pla-619540903576_c_)
+- [Servo TowerPro MG996R Metálico](https://www.robocore.net/loja/servos/servo-towerpro-mg996r-metalico?gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_JNA91HuvkCS4ewRt8Rn_2zqMHUNEQGbv1_TXIphOG0IIVh_E-hNJwaAlRhEALw_wcB)
+- [WebCam Logitech C270 HD com 3 MP](https://www.amazon.com.br/WebCam-Logitech-Chamadas-Grava%C3%A7%C3%B5es-Widescreen/dp/B003PAOAWG?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_1672062633_70247349012_323744819265_pla-609607383072_c_)
+- Bateria 9V
+- 2 LEDS
+- 3 Resistores
+- 1 Transistor
+- Jumpers, Protoboard
+
 ## Face Detector and Socket Server
 
 **Software desenvolvido para a disciplinas de Sistemas Embarcados**
