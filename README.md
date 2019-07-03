@@ -17,7 +17,7 @@ Quando detectada alguma face, o motor gira. Este atuador representa um sistema d
 ficará sob posse do morador da residência, podendo ser substituído por um smartwatch ou aplicativo
 de celular futuramente.
 
-![Sist_embarcados](https://user-images.githubusercontent.com/15917260/60626674-e9e72780-9dc1-11e9-95fe-840775460fbe.png)
+![Sist_embarcados](https://user-images.githubusercontent.com/15917260/60630216-89f77d80-9dcf-11e9-9b5c-fb1a5030cadc.png)
 
 ## Face Detector and Socket Server
 
