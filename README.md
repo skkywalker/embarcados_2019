@@ -10,8 +10,8 @@ vemos sua arquitetura detalhada.
 ## A arquitetura
 
 Uma WebCam é conectada à placa Toradex, que, por meio da biblioteca OpenCV, faz o reconhecimento
-de faces. Também na placa, há instalado um servidor socket que utiliza o protocolo TCP para a 
-realizar comunicacão com o roteador que, por sua vez, se comunica com o módulo WiFi.
+de faces. Também na placa, há instalado um servidor socket que utiliza o protocolo TCP para 
+realizar a comunicacão com o roteador que, por sua vez, se comunica com o módulo WiFi.
 Conectado ao módulo Wifi, há um atuador, que, para fins demonstrativos, é um servo motor.
 Quando detectada alguma face, o motor gira. Este atuador representa um sistema de alerta, que 
 ficará sob posse do morador da residência, podendo ser substituído por um smartwatch ou aplicativo
