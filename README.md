@@ -1,4 +1,4 @@
-# Sistema de reconhecimento de faces para uso residencial*
+# Sistema de reconhecimento de faces para uso residencial
 
 Este projeto consiste em desenvolver um sistema de detecção de faces utilizando uma WebCam.
 O projeto foi pensado para, inicialmente, ser aplicado em automação residencial, sendo
