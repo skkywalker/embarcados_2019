@@ -1,3 +1,24 @@
+# Projeto de Sistemas Embarcados
+
+*Sistema de reconhecimento de faces para uso residencial*
+
+Este projeto consiste em desenvolver um sistema de detecção de faces utilizando uma WebCam.
+O projeto foi pensado para, inicialmente, ser aplicado em automação residencial, sendo
+utilizado como uma forma de aviso para o morador quando alguém chega na porta de sua casa.
+Sua arquitetura é dividida basicamente em duas partes: o **servidor**, que é constituido por 
+uma placa da Toradex e o **cliente**, que é constituido por um módulo WiFi ESP8266. A seguir,
+vemos sua arquitetura detalhada.
+
+## A arquitetura
+
+Uma WebCam é conectada à placa Toradex, que, por meio da biblioteca OpenCV, faz o reconhecimento
+de faces. Também na placa, há instalado um servidor socket que utiliza o protocolo TCP para a 
+realizar comunicacão com o roteador que, por sua vez, se comunica com o módulo WiFi.
+Conectado ao módulo Wifi, há um atuador, que, para fins demonstrativos, é um servo motor.
+Quando detectada alguma face, o motor gira. Este atuador representa um sistema de alerta, que 
+ficará sob posse do morador da residência, podendo ser substituído por um smartwatch ou aplicativo
+de celular futuramente.
+
 ## Face Detector and Socket Server
 
 **Software desenvolvido para a disciplinas de Sistemas Embarcados**
