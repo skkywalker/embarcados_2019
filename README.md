@@ -21,7 +21,8 @@ de celular futuramente.
 
 ## Lista de Materiais 
 
-- Placa Toradex
+- [Placa Toradex Iris V1.1](https://docs.toradex.com/100069-iris-datasheet.pdf)
+- [Módulo Colibri iMX7](https://docs.toradex.com/103125-colibri-arm-som-imx7-datasheet.pdf)
 - [Módulo Wifi ESP8266 Nodemcu ESP-12 F com CH340](https://pt.aliexpress.com/item/NodeMcu-Lua-WIFI-development-board-based-on-the-ESP8266-Internet-of-things/32443964726.html?src=google&albslr=220578590&src=google&albch=shopping&acnt=494-037-6276&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&&albagn=888888&albcp=1626568036&albag=65942329430&trgt=296904914040&crea=pt32443964726&netw=u&device=c&gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_KhjD9Dkb1STRaHk6n5FtzH-hasCTEMFW4YdTQbAvpGQZqzyBTc_LEaAllNEALw_wcB&gclsrc=aw.ds)
 - [Roteador TP-Link AC1750 Archer C7, USBx2, Versão 4.0](https://www.amazon.com.br/Roteador-TP-Link-AC1750-Archer-Vers%C3%A3o/dp/B00BUSDVBQ?tag=goog0ef-20&smid=A2P1KJPEKWNQPI&ascsubtag=go_958276976_46095487085_227548540242_aud-519888259198:pla-619540903576_c_)
 - [Servo TowerPro MG996R Metálico](https://www.robocore.net/loja/servos/servo-towerpro-mg996r-metalico?gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_JNA91HuvkCS4ewRt8Rn_2zqMHUNEQGbv1_TXIphOG0IIVh_E-hNJwaAlRhEALw_wcB)
