@@ -28,10 +28,15 @@ de celular futuramente.
 - [Servo TowerPro MG996R Metálico](https://www.robocore.net/loja/servos/servo-towerpro-mg996r-metalico?gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_JNA91HuvkCS4ewRt8Rn_2zqMHUNEQGbv1_TXIphOG0IIVh_E-hNJwaAlRhEALw_wcB)
 - [WebCam Logitech C270 HD com 3 MP](https://www.amazon.com.br/WebCam-Logitech-Chamadas-Grava%C3%A7%C3%B5es-Widescreen/dp/B003PAOAWG?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_1672062633_70247349012_323744819265_pla-609607383072_c_)
 - Bateria 9V
+- Módulo transformador 9V/5V
+- Módulo transformador 5V/3.3V
+- Botão sem trava
 - 2 LEDS
 - 3 Resistores
-- 1 Transistor
+- 1 Transistor TJB
 - Jumpers, Protoboard
+- 1 cabo USB
+- 1 cabo Ethernet
 
 ## Face Detector and Socket Server
 
