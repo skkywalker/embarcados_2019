@@ -28,8 +28,8 @@ de celular futuramente.
 - [Servo TowerPro MG996R Metálico](https://www.robocore.net/loja/servos/servo-towerpro-mg996r-metalico?gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_JNA91HuvkCS4ewRt8Rn_2zqMHUNEQGbv1_TXIphOG0IIVh_E-hNJwaAlRhEALw_wcB)
 - [WebCam Logitech C270 HD com 3 MP](https://www.amazon.com.br/WebCam-Logitech-Chamadas-Grava%C3%A7%C3%B5es-Widescreen/dp/B003PAOAWG?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_1672062633_70247349012_323744819265_pla-609607383072_c_)
 - Bateria 9V
-- Módulo transformador 9V/5V
-- Módulo transformador 5V/3.3V
+- [Módulo transformador 9V/5V](https://produto.mercadolivre.com.br/MLB-1024031060-modulo-fonte-ajustavel-dc-dc-arduino-12v-9v-5v-3v-3a-_JM)
+- [Módulo transformador 5V/3.3V](https://br.banggood.com/3_3V-5V-TTL-Bi-directional-Logic-Level-Converter-For-Arduino-p-949438.html?currency=BRL&utm_source=googleshopping&utm_medium=cpc_bgcs&utm_content=garman&utm_campaign=pla-brg-all-pc&gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_Ly9bMVwMS0x-_60kZ77GNru40HFnyHKvCYfJuG3auw4e6injNHKPwaAmelEALw_wcB&cur_warehouse=CN)
 - Botão sem trava
 - 2 LEDS
 - 3 Resistores
